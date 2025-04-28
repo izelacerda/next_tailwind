@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img width="1112" alt="dashboard_next_tailwind_1" src="https://github.com/user-attachments/assets/d47a25eb-ccbb-4f78-a625-00840dc24270" />
 
 ## Getting Started
 
