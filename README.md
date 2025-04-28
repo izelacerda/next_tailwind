@@ -1,7 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+The main purpose of this project is to create the dashboard as per the below layout using next.js and tailwind.
+
 <img width="1112" alt="dashboard_next_tailwind_1" src="https://github.com/user-attachments/assets/d47a25eb-ccbb-4f78-a625-00840dc24270" />
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org) / Tailwind project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 
