@@ -1,15 +1,37 @@
 @import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --my-color: #8257e6;
+  --my-violet: #fcfaff;
+  --my-columns: minmax(18rem /* 288px */, 20rem /* 320px */) 1fr;
+  --my-profile: maxcontent 1fr maxcontent;
+  --my-form: minmax(7.5rem, 17.5rem) minmax(25rem , 1fr) minmax(0,15rem);
 }
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-app: var(--my-color);
+  --color-violet-25: var(--my-violet);
+  --color-error-25: #FFFBFA;
+  --color-error-50: #FEF3F2;
+  --color-error-100: #FEE4E2;
+  --color-error-200: #FECDCA;
+  --color-error-300: #FDA29B;
+  --color-error-400: #F97066;
+  --color-error-500: #F04438;
+  --color-error-600: #D92D20;
+  --color-error-700: #B42318;
+  --color-error-800: #912018;
+  --color-error-900: #7A271A;
+  --grid-template-columns-profile: var(--my-profile);
+  --grid-template-columns-app: var(--my-columns);
+  --grid-template-columns-form: var(--my-form);
+  --border-width-6: 6px;
 }
 
 @media (prefers-color-scheme: dark) {
